@@ -4,7 +4,7 @@
     {
       "label": "SCSS: Watch",
       "type": "shell",
-      "command": "~/dart-sass/sass _output/scss/main.scss _output/style.css --no-source-map --watch --quiet",
+      "command": "~/dart-sass/sass src/scss/main.scss _output/style.css --no-source-map --watch --quiet",
       "group": "build",
       "isBackground": true,
       "presentation": {
@@ -16,7 +16,7 @@
     {
       "label": "SCSS: Build",
       "type": "shell",
-      "command": "~/dart-sass/sass _output/scss/main.scss _output/style.css --no-source-map --quiet",
+      "command": "~/dart-sass/sass src/scss/main.scss _output/style.css --no-source-map --quiet",
       "group": {
         "kind": "build",
         "isDefault": true
