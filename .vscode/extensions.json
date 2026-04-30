@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "ms-vscode.live-server",
+    "eamodio.gitlens",
+    "GitHub.vscode-pull-request-github",
+    "bradlc.vscode-tailwindcss",
+    "stylelint.vscode-stylelint"
+  ]
+}

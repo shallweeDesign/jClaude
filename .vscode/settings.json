@@ -1,0 +1,33 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // SCSS
+  "scss.validate": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Live preview root → _output/
+  "livePreview.serverRoot": "_output",
+
+  // File explorer — hide compiled/cache files
+  "files.exclude": {
+    "**/.git": true,
+    "_output/style.css.map": true,
+    "_output/scss": false
+  },
+
+  // Explorer file nesting
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.scss": "${capture}.css, ${capture}.css.map",
+    "index.html": "style.css, style.css.map"
+  },
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false
+}
