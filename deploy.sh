@@ -5,7 +5,7 @@ ROOT="$(dirname "$0")"
 SRC="$ROOT/src"
 OUTPUT="$ROOT/_output"
 REPO="https://github.com/shallweeDesign/shallweeDesign.github.io.git"
-GHPAGES="$HOME/.ghpages-deploy"
+GHPAGES="$(dirname "$ROOT")/shallweeDesign.github.io"
 
 # ── Build ──────────────────────────────────────────────────
 echo "🔨 Compiling SCSS..."
